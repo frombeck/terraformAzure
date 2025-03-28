@@ -1,7 +1,7 @@
 # terraformAzure
 Explanation
 
-main.tf: This file contains the core Terraform configuration. It defines the Azure resources to be created, including the resource group, virtual network, subnet, network security group, and the virtual machines for the Docker Swarm master and worker nodes. It also has the provisioner block to install Docker and initialize the Swarm.
+azuredockerswarm.tf: This file contains the core Terraform configuration. It defines the Azure resources to be created, including the resource group, virtual network, subnet, network security group, and the virtual machines for the Docker Swarm master and worker nodes. It also has the provisioner block to install Docker and initialize the Swarm.
 variables.tf: This file defines the variables used in main.tf, such as the resource group name, location, VM size, and SSH public key. This allows you to customize the deployment without modifying the main configuration file directly.
 Key Points
 
